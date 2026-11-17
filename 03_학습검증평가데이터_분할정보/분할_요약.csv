@@ -1,0 +1,4 @@
+split,date_start,date_end,specimens,positive_specimens,negative_specimens,evaluation_pairs
+train,2015-03-02,2024-05-01,129868,11505,118363,7792080
+validation,2024-07-01,2025-05-01,34256,1406,32850,2055360
+test,2025-07-01,2026-06-30,44175,1255,42920,2650500

@@ -1,0 +1,10 @@
+name: dinotefuran-validation
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - catboost==1.2.10
+      - numpy==2.3.5
+      - pandas==2.3.3

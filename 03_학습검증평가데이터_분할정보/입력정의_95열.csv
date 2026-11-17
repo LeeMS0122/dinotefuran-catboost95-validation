@@ -1,0 +1,96 @@
+position,feature_name,data_type,group,description,unit
+1,temp_mean__mean,float32,기상 요약·결측,평균 기온 90일 평균,°C
+2,temp_mean__std,float32,기상 요약·결측,평균 기온 90일 모표준편차,°C
+3,temp_mean__min,float32,기상 요약·결측,평균 기온 90일 최솟값,°C
+4,temp_mean__max,float32,기상 요약·결측,평균 기온 90일 최댓값,°C
+5,temp_mean__last,float32,기상 요약·결측,평균 기온 90일 D 위치의 값,°C
+6,temp_mean__slope,float32,기상 요약·결측,평균 기온 90일 일별 선형 기울기,°C/일
+7,temp_min__mean,float32,기상 요약·결측,최저 기온 90일 평균,°C
+8,temp_min__std,float32,기상 요약·결측,최저 기온 90일 모표준편차,°C
+9,temp_min__min,float32,기상 요약·결측,최저 기온 90일 최솟값,°C
+10,temp_min__max,float32,기상 요약·결측,최저 기온 90일 최댓값,°C
+11,temp_min__last,float32,기상 요약·결측,최저 기온 90일 D 위치의 값,°C
+12,temp_min__slope,float32,기상 요약·결측,최저 기온 90일 일별 선형 기울기,°C/일
+13,temp_max__mean,float32,기상 요약·결측,최고 기온 90일 평균,°C
+14,temp_max__std,float32,기상 요약·결측,최고 기온 90일 모표준편차,°C
+15,temp_max__min,float32,기상 요약·결측,최고 기온 90일 최솟값,°C
+16,temp_max__max,float32,기상 요약·결측,최고 기온 90일 최댓값,°C
+17,temp_max__last,float32,기상 요약·결측,최고 기온 90일 D 위치의 값,°C
+18,temp_max__slope,float32,기상 요약·결측,최고 기온 90일 일별 선형 기울기,°C/일
+19,humidity__mean,float32,기상 요약·결측,상대습도 90일 평균,%
+20,humidity__std,float32,기상 요약·결측,상대습도 90일 모표준편차,%
+21,humidity__min,float32,기상 요약·결측,상대습도 90일 최솟값,%
+22,humidity__max,float32,기상 요약·결측,상대습도 90일 최댓값,%
+23,humidity__last,float32,기상 요약·결측,상대습도 90일 D 위치의 값,%
+24,humidity__slope,float32,기상 요약·결측,상대습도 90일 일별 선형 기울기,%/일
+25,precip__mean,float32,기상 요약·결측,강수량 90일 평균,mm
+26,precip__std,float32,기상 요약·결측,강수량 90일 모표준편차,mm
+27,precip__min,float32,기상 요약·결측,강수량 90일 최솟값,mm
+28,precip__max,float32,기상 요약·결측,강수량 90일 최댓값,mm
+29,precip__last,float32,기상 요약·결측,강수량 90일 D 위치의 값,mm
+30,precip__slope,float32,기상 요약·결측,강수량 90일 일별 선형 기울기,mm/일
+31,radiation__mean,float32,기상 요약·결측,일사량 90일 평균,원천 일사량 단위
+32,radiation__std,float32,기상 요약·결측,일사량 90일 모표준편차,원천 일사량 단위
+33,radiation__min,float32,기상 요약·결측,일사량 90일 최솟값,원천 일사량 단위
+34,radiation__max,float32,기상 요약·결측,일사량 90일 최댓값,원천 일사량 단위
+35,radiation__last,float32,기상 요약·결측,일사량 90일 D 위치의 값,원천 일사량 단위
+36,radiation__slope,float32,기상 요약·결측,일사량 90일 일별 선형 기울기,원천 일사량 단위/일
+37,wind_mean__mean,float32,기상 요약·결측,평균 풍속 90일 평균,m/s
+38,wind_mean__std,float32,기상 요약·결측,평균 풍속 90일 모표준편차,m/s
+39,wind_mean__min,float32,기상 요약·결측,평균 풍속 90일 최솟값,m/s
+40,wind_mean__max,float32,기상 요약·결측,평균 풍속 90일 최댓값,m/s
+41,wind_mean__last,float32,기상 요약·결측,평균 풍속 90일 D 위치의 값,m/s
+42,wind_mean__slope,float32,기상 요약·결측,평균 풍속 90일 일별 선형 기울기,m/s/일
+43,wind_max__mean,float32,기상 요약·결측,최대 풍속 90일 평균,m/s
+44,wind_max__std,float32,기상 요약·결측,최대 풍속 90일 모표준편차,m/s
+45,wind_max__min,float32,기상 요약·결측,최대 풍속 90일 최솟값,m/s
+46,wind_max__max,float32,기상 요약·결측,최대 풍속 90일 최댓값,m/s
+47,wind_max__last,float32,기상 요약·결측,최대 풍속 90일 D 위치의 값,m/s
+48,wind_max__slope,float32,기상 요약·결측,최대 풍속 90일 일별 선형 기울기,m/s/일
+49,missing_ratio_temp_mean,float32,기상 요약·결측,평균 기온 90일 원자료 결측 비율,0~1
+50,missing_ratio_temp_min,float32,기상 요약·결측,최저 기온 90일 원자료 결측 비율,0~1
+51,missing_ratio_temp_max,float32,기상 요약·결측,최고 기온 90일 원자료 결측 비율,0~1
+52,missing_ratio_humidity,float32,기상 요약·결측,상대습도 90일 원자료 결측 비율,0~1
+53,missing_ratio_precip,float32,기상 요약·결측,강수량 90일 원자료 결측 비율,0~1
+54,missing_ratio_radiation,float32,기상 요약·결측,일사량 90일 원자료 결측 비율,0~1
+55,missing_ratio_wind_mean,float32,기상 요약·결측,평균 풍속 90일 원자료 결측 비율,0~1
+56,missing_ratio_wind_max,float32,기상 요약·결측,최대 풍속 90일 원자료 결측 비율,0~1
+57,source_route,float32 저장 정수값 → 범주 문자열,검사 경로·지역·품목,검사자료 경로,코드
+58,region,float32 저장 정수값 → 범주 문자열,검사 경로·지역·품목,시군구 또는 수입 지역,코드
+59,product_group,float32 저장 정수값 → 범주 문자열,검사 경로·지역·품목,품목군,코드
+60,product_detail,float32 저장 정수값 → 범주 문자열,검사 경로·지역·품목,세부품목,코드
+61,origin_month_sin,float32,달력·예측거리,기준일 D 월의 사인 변환,무차원
+62,origin_month_cos,float32,달력·예측거리,기준일 D 월의 코사인 변환,무차원
+63,origin_doy_sin,float32,달력·예측거리,기준일 D 연중일의 사인 변환,무차원
+64,origin_doy_cos,float32,달력·예측거리,기준일 D 연중일의 코사인 변환,무차원
+65,origin_year_z,float32,달력·예측거리,기준일 D 연도 표준화,무차원
+66,horizon_scaled,float32,달력·예측거리,선행일수 H의 선형 변환 (H−1)/59,무차원
+67,soil_moisture__mean,float32,토양 요약·정적 토양,토양 수분 90일 평균,원본 % 스케일
+68,soil_moisture__std,float32,토양 요약·정적 토양,토양 수분 90일 모표준편차,원본 % 스케일
+69,soil_moisture__min,float32,토양 요약·정적 토양,토양 수분 90일 최솟값,원본 % 스케일
+70,soil_moisture__max,float32,토양 요약·정적 토양,토양 수분 90일 최댓값,원본 % 스케일
+71,soil_moisture__last,float32,토양 요약·정적 토양,토양 수분 90일 D 위치의 값,원본 % 스케일
+72,soil_moisture__slope,float32,토양 요약·정적 토양,토양 수분 90일 일별 선형 기울기,원본 % 스케일/일
+73,soil_temperature__mean,float32,토양 요약·정적 토양,토양 온도 90일 평균,°C
+74,soil_temperature__std,float32,토양 요약·정적 토양,토양 온도 90일 모표준편차,°C
+75,soil_temperature__min,float32,토양 요약·정적 토양,토양 온도 90일 최솟값,°C
+76,soil_temperature__max,float32,토양 요약·정적 토양,토양 온도 90일 최댓값,°C
+77,soil_temperature__last,float32,토양 요약·정적 토양,토양 온도 90일 D 위치의 값,°C
+78,soil_temperature__slope,float32,토양 요약·정적 토양,토양 온도 90일 일별 선형 기울기,°C/일
+79,missing_ratio_soil_moisture,float32,토양 요약·정적 토양,토양 수분 90일 원자료 결측 비율,0~1
+80,missing_ratio_soil_temperature,float32,토양 요약·정적 토양,토양 온도 90일 원자료 결측 비율,0~1
+81,soil_ph,float32,토양 요약·정적 토양,정적 토양 pH,pH
+82,soil_organic_matter,float32,토양 요약·정적 토양,정적 토양 유기물,기존 g/kg 환산 스케일
+83,missing_soil_ph,float32 저장 0/1,토양 요약·정적 토양,정적 토양 pH 원자료 결측 표시,0/1
+84,missing_soil_organic_matter,float32 저장 0/1,토양 요약·정적 토양,정적 토양 유기물 원자료 결측 표시,0/1
+85,precip_sum_30,float32,기존 파생변수,30일 누적 강수량 D−29~D,mm
+86,vpd_mean_7,float32,기존 파생변수,7일 평균 증기압포차 D−6~D,kPa
+87,missing_precip_sum_30,float32 저장 0/1,기존 파생변수,30일 누적 강수량 D−29~D 원자료 결측 표시,0/1
+88,missing_vpd_mean_7,float32 저장 0/1,기존 파생변수,7일 평균 증기압포차 D−6~D 원자료 결측 표시,0/1
+89,soil_moisture_trend_7d,float32,토양 파생변수,"최근 7일 평균−앞선 7일 평균, D−1까지",원본 % 스케일의 차이
+90,missing_soil_moisture_trend_7d,float32 저장 0/1,토양 파생변수,"최근 7일 평균−앞선 7일 평균, D−1까지 원자료 결측 표시",0/1
+91,soil_temp_moisture_60d,float32,토양 파생변수,"일별 토양수분×토양온도의 60일 평균, D−1까지",원본 수분 % 스케일×°C
+92,missing_soil_temp_moisture_60d,float32 저장 0/1,토양 파생변수,"일별 토양수분×토양온도의 60일 평균, D−1까지 원자료 결측 표시",0/1
+93,soil_ktemp_q10_60d,float32,토양 파생변수,"문헌 기반 토양온도 보정 소실속도상수 60일 평균, D−1까지",day⁻¹
+94,missing_soil_ktemp_q10_60d,float32 저장 0/1,토양 파생변수,"문헌 기반 토양온도 보정 소실속도상수 60일 평균, D−1까지 원자료 결측 표시",0/1
+95,dinotefuran_pest_target_name_count,float32,방제 대상명 수,11.13 자료의 품목군×세부품목별 중복 제거 후 방제 대상명 수. 목록이 없으면 0,개
