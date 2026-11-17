@@ -93,4 +93,4 @@ position,feature_name,data_type,group,description,unit
 92,missing_soil_temp_moisture_60d,float32 저장 0/1,토양 파생변수,"일별 토양수분×토양온도의 60일 평균, D−1까지 원자료 결측 표시",0/1
 93,soil_ktemp_q10_60d,float32,토양 파생변수,"문헌 기반 토양온도 보정 소실속도상수 60일 평균, D−1까지",day⁻¹
 94,missing_soil_ktemp_q10_60d,float32 저장 0/1,토양 파생변수,"문헌 기반 토양온도 보정 소실속도상수 60일 평균, D−1까지 원자료 결측 표시",0/1
-95,dinotefuran_pest_target_name_count,float32,방제 대상명 수,11.13 자료의 품목군×세부품목별 중복 제거 후 방제 대상명 수. 목록이 없으면 0,개
+95,dinotefuran_pest_target_name_count,float32,품목별 병해충 위험 지수,11.13 자료의 품목군×세부품목별 중복 제거 후 방제 대상명 수. 목록이 없으면 0,개
